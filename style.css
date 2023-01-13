@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Libre+Barcode+39+Text&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
+*{
+    background: #000;
+    color: #fff;
+}
+.error-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-size: 52px;
+    font-family: 'Rubik Vinyl', cursive;
+    margin: 0 40px;
+}
+.url{
+    color: red;
+}
+a{
+    text-decoration: none;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 40px;
+}
+#footer{
+    color: #fff;
+    position:fixed;
+    left:0;
+    bottom:0;
+    text-align:center;
+    width:100%;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
